@@ -1,0 +1,30 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Rest API example with Express JS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lioneldiaz/Rest-API-ExpressJS.git"
+  },
+  "author": "Lionel Diaz",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "joi": "^13.4.0",
+    "mongoose": "^5.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.2"
+  },
+  "bugs": {
+    "url": "https://github.com/lioneldiaz/Rest-API-ExpressJS/issues"
+  },
+  "homepage": "https://github.com/lioneldiaz/Rest-API-ExpressJS#readme"
+}
